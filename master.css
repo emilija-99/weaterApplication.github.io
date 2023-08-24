@@ -1,0 +1,66 @@
+
+#searchArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+select{
+    width: 40%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid black;
+    background: whitesmoke;
+    box-shadow: 0px 0px 1px 0.3px black;
+}
+select option{
+    width: 5%;
+    height: 10px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    padding-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+}
+.displayForest{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+}
+.displayForest .day{
+    padding: 20px;
+    margin-left: 40px;
+    box-shadow: 0px 0px 2px 2px #6D9DC5;
+    width: 200px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+.displayForest .day:hover {
+    cursor: pointer;
+    width: calc(200px * 1.05);
+    height: calc(300px * 1.05);
+}
+.displayForest .day img{
+    padding-top: 20px;
+}
+.temp{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.error_display{
+    display: flex; align-items: center; text-align: center; justify-content: center; flex-direction: column;
+}
